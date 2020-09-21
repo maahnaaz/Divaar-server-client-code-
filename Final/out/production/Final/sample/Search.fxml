@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainCodeController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#openNewAdd" prefHeight="73.0" prefWidth="68.0" style="-fx-background-color: #f8f8f8#f8f8f8;" text="آگهی جدید" textAlignment="RIGHT" textFill="#8c1912" />
+      <Button alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" layoutX="242.0" layoutY="370.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="61.0" style="-fx-background-color: #8c1912;" text="صفحه اصلی" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="164.0" layoutY="370.0" mnemonicParsing="false" onAction="#categories" prefHeight="27.0" prefWidth="78.0" style="-fx-background-color: #8c1912;" text="دسته بندی ها" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="86.0" layoutY="370.0" mnemonicParsing="false" onAction="#search" prefHeight="27.0" prefWidth="78.0" style="-fx-background-color: #8c1912;" text="جستجو" textFill="WHITE" />
+      <Button layoutY="370.0" mnemonicParsing="false" onAction="#Mine" prefHeight="27.0" prefWidth="86.0" style="-fx-background-color: #8c1912;" text="دیوارمن" textFill="WHITE" />
+      <ImageView fitHeight="80.0" fitWidth="151.0" layoutX="149.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Logo.jpg" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER_RIGHT" layoutX="5.0" layoutY="73.0" prefHeight="27.0" prefWidth="289.0" promptText="جستجو برای ..." style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>
